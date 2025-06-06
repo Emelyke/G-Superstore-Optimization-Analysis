@@ -24,7 +24,7 @@ To Develope an interactive Power BI dashboard for a Superstore, transforming raw
 -Which cities contribute most significantly to total sales and profitability?
 
 
--Dashboard Interaction  <a href="https://github.com/Emelyke/Call-Centre-Dashboard/commit/cc6ba6ee896a293c0403cd345c024851eb674ffa">View Dashboard</a>
+-Dashboard Interaction  <a href="https://github.com/Emelyke/G-Superstore-Optimization-Analysis/blob/main/Global_ZTH.pbix">View Dashboard</a>
 
 
 ## Process
@@ -44,22 +44,76 @@ To Develope an interactive Power BI dashboard for a Superstore, transforming raw
 
 ## Project Insight
 
--An average speed of answer at 67.52 seconds, compared to a short talk duration of 30.21 seconds, indicates potential inefficiencies in call handling and agent availability, which potentially leads to customer dissatisfaction.
+  1. Monthly Trend of Sales and Profit
+Insight:
+-Sales peak in November ($1.6M), with significant growth starting from June onward.
+-Profits remain relatively flat throughout the year, ranging from $71K to $175K, indicating low profit margins.Some months like May and July have similar sales to others but very low profit, suggesting possible discounting or high-cost products.
 
--There's a spike in unanswered calls during peak hours (9 AM, 11 AM, 12 PM, and 5 PM), particularly on weekends and Mondays. This contributes to decreased service efficiency, negatively impacts business performance, and poses a risk to the company’s reputation due to unmet customer needs.
+Recommendation:
+-Investigate high-volume months like November to replicate successful campaigns.
+-Improve profit margins by revising pricing or supplier negotiations, especially in low-profit months.
+-Identify and minimize selling low-margin or loss-making products.
 
--A significant proportion of unresolved customer calls occurs during weekends, primarily due to high call volumes that exceed support capacity, resulting in delayed responses, reduced service quality, and ultimately, unresolved customer issues.
+🔹 2. Yearly Total Sales and Profit
+Insight:
+-Sales and profit both increased steadily from 2011 to 2014, peaking in 2014 with $4.2M in sales and $497K in profit.
+-The profit margin is improving but still represents ~11.8% of sales in 2014.
 
--Average customer satisfaction score of 3.40 out of 5 indicates a moderate level of satisfaction, suggesting that while basic expectations are being met, there's significant room for improvement
+Recommendation:
+-Continue investing in growth strategies from 2013–2014.
+-Analyze what contributed to the performance boost in 2013–2014 and replicate or scale those tactics.
+
+Recommendation:
+-Continue investing in growth strategies from 2013–2014.
+-Analyze what contributed to the performance boost in 2013–2014 and replicate or scale those tactics.
+
+🔹 3. Top 5 Customers by Orders
+Insight:
+-The top 6 customers all have over 100 orders, with Muhammad and Steven tied at 106 orders.
+-These repeat customers are vital for consistent revenue.
+
+Recommendation:
+-Offer loyalty incentives or exclusive deals to retain these top customers.
+-Analyze their purchase patterns and tailor future offers or upsells.
+
+🔹 4. Top 5 Products by Sales
+Insight:
+-Phones ($1.7M) lead the sales, followed by Copiers, Chairs, and Bookcases (all at $1.5M).
+These products contribute significantly to overall revenue.
+Recommendation:
+Promote and stock high-performing items like phones more aggressively.
+Review cost structure and profit margins of these products to ensure profitability aligns with revenue.
+
+
+🔹 5. Total Sales by Segment
+Insight:
+Consumer segment leads with $6M (51.5%), followed by Corporate (30.2%) and Home Office (18.3%).
+Recommendation:
+Focus more marketing and product development efforts on the Consumer segment.
+Explore upselling/cross-selling opportunities for Corporate and Home Office to increase their share.
+
+🔹 6. Total Sales by Order Priority
+Insight:
+Medium priority orders dominate (57.6%), followed by High (30.1%).
+Critical and Low priorities contribute minimally.
+Recommendation:
+Evaluate if high-priority and critical orders are being processed efficiently.
+Consider promotional offers to shift more customers into high-priority orders (which may imply faster shipping or premium service).
+
+🔹 7. Total Sales and Profit by City
+Insight:
+New York City has the highest profit ($62K) and sales ($256K).
+Manila shows a loss of $11K despite $119K in sales — a red flag.
+Recommendation:
+Investigate operations in Manila to reduce losses—possibly due to high costs or discounts.
+Prioritize and replicate sales strategies from New York and LA in other cities.
+
+🔹 Overall Dashboard Summary
+Total Sales: $12.6M
+Total Profit: $1.46M (~11.6% margin)
+Total Orders: 51,004
+Customers: 1,590
 
 ## Recommendation:
 
--Improve call routing and optimize agent scheduling to reduce wait times. Implement real-time monitoring and queue management strategies to align agent availability with call volume, enhancing responsiveness and customer experience
 
--Establish a peer mentorship program by pairing top-performing agents with those underperforming to foster knowledge sharing, improve problem-solving skills, and uplift overall team performance.
-
--Optimize workforce scheduling by aligning agent availability with peak call hours especially during weekends and Mondays to reduce unanswered calls. Implement call queue management tools and consider self-service options (e.g., IVR, chatbots) to improve response rates, enhance customer satisfaction, and protect brand reputation.
-
--Implement a continuous training and development program to reinforce best practices, keep agents updated on industry trends, and enhance their ability to deliver effective solutions. This will not only improve individual agent performance but also ensure consistent, high-quality customer satisfaction.
-
--Implement multichannel support (e.g., live chat, email, and social platforms) to enhance service accessibility and streamline operational efficiency.
